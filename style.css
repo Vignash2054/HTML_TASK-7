@@ -1,0 +1,90 @@
+body{
+    counter-reset: mycounter;
+    background-color: rgb(154, 224, 237);
+    color:darkblue;
+}
+
+#hi{
+    counter-increment: mycounter;
+    font-family: Arial, sans-serif
+}
+
+#hi::before{
+    content: counter(mycounter)".";
+    font-weight: bold;
+    color: #196d00;
+}
+#main{
+    counter-reset: mycounter1;
+}
+#q1{
+    counter-increment: mycounter1;
+    color: rgb(255, 0, 0);
+}
+#q1::before{
+    content:"1."counter(mycounter1)".";
+}
+#q2{
+    counter-increment: mycounter2;
+    color: rgb(255, 0, 0);
+}
+#q2::before{
+    content:"2."counter(mycounter2)".";
+}
+#q3{
+    counter-increment: mycounter3;
+    color: rgb(255, 0, 0);
+}
+#q3::before{
+    content:"3."counter(mycounter3)".";
+}
+#q4{
+    counter-increment: mycounter4;
+    color: rgb(255, 0, 0);
+}
+#q4::before{
+    content:"4."counter(mycounter4)".";
+}
+#q5{
+    counter-increment: mycounter5;
+    color: rgb(255, 0, 0);
+}
+#q5::before{
+    content:"5."counter(mycounter5)".";
+}
+#q6{
+    counter-increment: mycounter6;
+    color: rgb(255, 0, 0);
+}
+#q6::before{
+    content:"6."counter(mycounter6)".";
+}
+#q7{
+    counter-increment: mycounter7;
+    color: rgb(255, 0, 0);
+}
+#q7::before{
+    content:"7."counter(mycounter7)".";
+}
+#q8{
+    counter-increment: mycounter8;
+    color: rgb(255, 0, 0);
+}
+#q8::before{
+    content:"8."counter(mycounter8)".";
+}
+#q9{
+    counter-increment: mycounter9;
+    color: rgb(255, 0, 0);
+}
+#q9::before{
+    content:"9."counter(mycounter9)".";
+}
+#q10{
+    counter-increment: mycounter10;
+    color: rgb(255, 0, 0);
+}
+#q10::before{
+    content:"10."counter(mycounter10)".";
+}
+
